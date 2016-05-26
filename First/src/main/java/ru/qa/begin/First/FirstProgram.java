@@ -5,13 +5,16 @@ public class FirstProgram {
         hello("world");
         String somebody = "Universe";
 
-        double len = 5;
-        System.out.println("square of cube of size " + len + " = " + area(len));
+        Square s = new Square(5);
+        System.out.println("square of cube of size " + s.len + " = " + s.area());
+
+
         System.out.println("Hello?" + somebody + "!");
 
-        double a = 4;
-        double b = 6;
-        System.out.println("square of piped of side " + a + " and " + b+ " = " + area(a,b));
+        Rectangle r = new Rectangle(4,6);
+
+
+        System.out.println("square of piped of side " + r.a + " and " + r.b+ " = " + r.area());
     }
 
     public static void hello(String somebody) {
@@ -19,14 +22,9 @@ public class FirstProgram {
         System.out.println("Hello, " + somebody + "!");
     }
 
-    public static double area(double l) {
-        return l * l;
-    }
 
-    public static double area(double a, double b) {
-        return a*b;
 
-    }
+
 
 
 }
