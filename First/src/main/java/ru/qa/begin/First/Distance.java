@@ -14,8 +14,8 @@ public class Distance {
         p1.y = 5;
 
         Point p2 = new Point();
-        p1.x = 1;
-        p1.y = 2;
+        p2.x = 1;
+        p2.y = 2;
 
         double result = distance(p1, p2);
         System.out.println("distance between two points " + result);
