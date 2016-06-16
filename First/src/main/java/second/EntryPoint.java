@@ -21,8 +21,8 @@ public class EntryPoint {
 //
 //        DOUBLE RESULT_1 = POINT_1.DISTANCE_1;
 //        SYSTEM.OUT.PRINTLN("DISTANCE BETWEEN TWO POINTS " + RESULT_1);
-        Point point = new Point();
-        Point point2 = new Point();
+        Point point = new Point(0,0);
+        Point point2 = new Point(0,0);
         point2.x = 2;
         point2.y = 2;
 //
